@@ -21,7 +21,7 @@ for (let i = 0; i < 2; i++) {
         console.log('error');
         i--;
     }
-};
+}
 
 if (personalMovieDB.count < 10) {
     console.log("Просмотрено довольно мало фильмов");
@@ -34,3 +34,5 @@ if (personalMovieDB.count < 10) {
 }
 
 console.log(personalMovieDB);
+
+const calc = () => console.log('12');
